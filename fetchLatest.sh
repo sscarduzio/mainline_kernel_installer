@@ -47,8 +47,8 @@ echo "> installing $i"
 #linux-headers-5.7.0-999_5.7.0-999.202005060358_all.deb
 #linux-image-unsigned-5.7.0-999-generic_5.7.0-999.202005060358_amd64.deb
 
-sudo dpkg -i `ls $TMPDIR -1 |grep linux-headers|grep all` || echo "already installed?"
-sudo dpkg -i `ls $TMPDIR -1 |grep linux-headers|grep amd64`|| echo "already installed?"
-sudo dpkg -i `ls $TMPDIR -1 |grep modules`|| echo "already installed?"
-sudo dpkg -i `ls $TMPDIR -1 |grep image`|| echo "already installed?"
+sudo dpkg -i $TMPDIR/`ls $TMPDIR -1 |grep linux-headers|grep all` || echo "already installed?"
+sudo dpkg -i $TMPDIR/`ls $TMPDIR -1 |grep linux-headers|grep amd64`|| echo "already installed?"
+sudo dpkg -i $TMPDIR/`ls $TMPDIR -1 |grep modules`|| echo "already installed?"
+sudo dpkg -i $TMPDIR/`ls $TMPDIR -1 |grep image`|| echo "already installed?"
 
