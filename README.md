@@ -4,3 +4,4 @@ Basic bash script to automate the discovery, download, and  installation of the 
 
 You can also list and show and uninstall old kernels and their headers and modules much more quickly than with apt, with just one command.
 
+[![asciicast](https://asciinema.org/a/jhDeefTkK0kmcn5ySf37vNjsX.svg)](https://asciinema.org/a/jhDeefTkK0kmcn5ySf37vNjsX)
